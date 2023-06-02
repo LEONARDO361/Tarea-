@@ -1,0 +1,42 @@
+    .container {
+      max-width: 600px;
+      margin-top: 50px;
+      background-color: #262626;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #f2f2f2;
+      font-size: 32px;
+    }
+    
+    .form-group label {
+      font-size: 18px;
+      font-weight: bold;
+      color: #f2f2f2;
+    }
+    
+    #indicadorInfo {
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    #indicadorInfo h3 {
+      color: #f2f2f2;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    #indicadorInfo p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    #grafico {
+      margin-top: 50px;
+      color: aqua;
+    }

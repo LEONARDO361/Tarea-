@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indicadores Económicos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+     body {
+      background-color: #1e1e1e;
+      color: #f2f2f2;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Indicadores Económicos</h1>
+    <div class="form-group">
+      <label for="indicador">Seleccione un indicador:</label>
+      <select class="form-control" id="indicador">
+        <option value="">Seleccione...</option>
+        <option value="dolar">Dólar</option>
+        <option value="euro">Euro</option>
+        <option value="uf">UF</option>
+        <option value="utm">utm</option>
+        <option value="ivp">ivp</option>
+        <option value="bitcoin">Bitcoin</option>
+        <option value="ipc">ipc</option>
+        <option value="tpm">tpm</option>
+        <option value="dolar_intercambio">dolar intercambio</option>
+        <option value="imacec">imacec</option>
+        <option value="libra_cobre">libra_cobre</option>
+        <option value="tasa_desempleo">tasa_desempleo</option>
+
+      </select>
+    </div>
+    <div id="indicadorInfo" class="mt-5">
+    </div>
+    <div id="grafico" class="mt-5">
+      <canvas id="myChart"></canvas>
+    </div>
+  </div>
+  <script src="scrip.js"></script>
+</body>
+</html>
